@@ -35,3 +35,25 @@ mark{
     background-color: green;
     font-size: 24px;
 }
+.menu{
+    width: 150px; 
+    height: 150px;
+}
+
+#divPadding5{
+    padding: 5%;
+}
+
+.conteudotexto{
+    padding: 1%;
+}
+
+#legenda{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#tabela tbody > tr:hover{
+    background-color: rgb(1, 75, 1);
+    color: white;
+}
