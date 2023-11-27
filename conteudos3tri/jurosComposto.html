@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juros Composto</title>
+    <link href="../estilo.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"> <i class="material-icons">home</i> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../trimestre1.html">1º Trimestre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../trimestre2.html">2º Trimestre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../trimestre3.html">3º Trimestre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="conteudotexto">
+        <h1 id="tituloCentralizado">Juros Composto</h1>
+        <p>Diferente dos juros simples, o juros composto é uma capitalização de uma taxa de juros que age sobre o capital inicial somado com o rendimento, durante o período já passado. Ou seja, em um capital de R$1.000,00 durante 5 meses, com uma taxa de juros que 4% ao mês, no primeiro mês irá render R$40,00 em cima dos R$1.000,00. No segundo mês irá render um valor de R$41,60 ainda em cima dos R%1.040,00 considerando o que rendeu no último mês.</p>
+        <p>A Fórmula para calcular o juros composto é: 𝑴 = 𝑪(𝟏 + 𝒊)<sub>𝒏</sub>.</p>    
+        <p>Onde 𝑴  - é o montante, que é o rendimento mais o capital, 𝑪 - é o capital inicial, 𝒊 - é a taxa de rendimento e 𝒏 - é o tempo que ficou aplicado.</p>
+        <p>Devemos lembrar que o 𝑴  é o que rendeu mais o capital, se você quiser descobrir apenas o que rendeu, você deve subtrair do montante o capital inicial. 𝑱 = 𝑴 - 𝑪.</p>
+        <p>Muitas vezes também a taxa de juros e o prazo vêm com unidades de tempo diferente, quando isso ocorreu devemos converter a taxa ou o prazo para a mesma unidade de tempo. Se a taxa de juros é de 10% ao mês, e o prazo é de 1 ano, devemos converter o prazo em anos para mês. Ou seja, ao invés de 1 ano, devemos pensar como 12 meses. NO JUROS COMPOSTO, DEVEMOS CONVERTER APENAS O PRAZO, A TAXA NÃO DEVE SER CONVERTIDA.</p>
+
+        <img src="../imagem3tri/ExemploJurosComposto.jpg" width="900" height="800">
+        <hr>
+        <br>
+
+        <p>O gráfico do juros composto segue o mesmo modelo de uma função exponencial. O gráfico abaixo mostra a diferença entre uma aplicação em juros simples e em juros compostos.</p>
+        <a href="https://fazaconta.com/juros-simples-compostos.htm" target="_blank"> <img src="../imagem3tri/graficoJurosComposto.png"></a>
+    </div>
+    
+
+
+
+    <br>
+    <a href="../trimestre3.html">
+        <p id="voltar"> Voltar </p>
+    </a>
+
+</body>
+
+</html>
